@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+/* ── Custom theme tokens ─────────────────────────────────── */
+@theme {
+  /* Earthy greens */
+  --color-green-900: #1a3a2a;
+  --color-green-800: #244d38;
+  --color-green-700: #2d6346;
+  --color-green-600: #3a7d5a;
+  --color-sage-500: #7a9e7e;
+  --color-sage-400: #9ab89e;
+  --color-sage-300: #b5ceb8;
+  --color-sage-200: #d4e4d6;
+  --color-sage-100: #e9f0ea;
+
+  /* Soil browns */
+  --color-soil-700: #4a3728;
+  --color-soil-600: #5e4636;
+  --color-soil-500: #7a5c47;
+  --color-soil-400: #9e7e66;
+  --color-soil-300: #bfa48c;
+
+  /* Warm creams */
+  --color-cream-50: #fdfbf7;
+  --color-cream-100: #f9f5ed;
+  --color-cream-200: #f0e8d8;
+  --color-cream-300: #e4d8c0;
+
+  /* Muted yellows */
+  --color-harvest-400: #d4b85c;
+  --color-harvest-300: #e2cc7a;
+  --color-harvest-200: #eee0a8;
+
+  /* Fonts */
+  --font-heading: "Georgia", "Times New Roman", serif;
+  --font-body: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+}
+
+/* ── Base styles ─────────────────────────────────────────── */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-green-900);
+  background-color: var(--color-cream-50);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+}
